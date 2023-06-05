@@ -364,9 +364,12 @@ background-attachment: fixed;
     }
     .hero .box-hero .box:nth-child(1) h1 {
     width: 80%;
+    margin: 30px auto 0;
+
     }
     .hero .box-hero .box:nth-child(1) p {
     width: 80%;
+    margin: 10px auto;
     }
     
 }
@@ -387,7 +390,7 @@ background-attachment: fixed;
         margin: auto;
         }
     .hero .box-hero .box:nth-child(1) p {
-        margin: auto;
+        margin: 10px auto;
     }
     
     
