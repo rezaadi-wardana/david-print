@@ -20,7 +20,7 @@ background-attachment: fixed;
     margin-inline: auto;
 }
 .navbar{
-    padding:  20px 0 20px 0;
+    padding:  20px 20px 20px 20px;
     position: fixed;
     width: 100%;
     transition: all 0,3s ease;
@@ -38,11 +38,12 @@ background-attachment: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
-/* .navbar .box-navbar .logo h1 {
-    color: aliceblue;
+.navbar .box-navbar .logo h1 {
+    color: white;
     font-size: 24px;
-} */
+}
 .navbar .box-navbar .menu {
      display: flex;
      column-gap: 20px ;
