@@ -173,7 +173,7 @@ background-attachment: fixed;
     transition: all 0.3s ease;
 }
 .balon .box-balon .box:hover{
-    transform:translateY(-20px) ;
+    transform:translateY(-10px) ;
 }
 .balon .box-balon .box img {
     width: 95%;
@@ -182,12 +182,15 @@ background-attachment: fixed;
     border-radius: 10px;
 }
 .balon .box-balon .box p {
+    text-align: center;
     font-weight: 100;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0 10px;
 
 }
 .balon .box-balon .box button {
-    width:120px;
+    width: 120px;
     height: 40px;
     border: none;
     background-color: #0050b3;
@@ -283,6 +286,7 @@ background-attachment: fixed;
 .footer .box-footer .box:nth-child(3) span {
     font-weight: bold;
 }
+
 @media screen and (max-width: 1200px){
     .hero .box-hero .box:nth-child(1) button{
         width: 150px;
