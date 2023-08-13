@@ -159,11 +159,11 @@ background-attachment: fixed;
 }
 
 .balon {
-    padding: 150px 0 50px 0;
+    padding: 120px 0 50px 0;
 }
 .balon .box-balon {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     row-gap: 50px;
 }
@@ -176,7 +176,7 @@ background-attachment: fixed;
     transform:translateY(-10px) ;
 }
 .balon .box-balon .box img {
-    width: 95%;
+    width:60%;
     height: auto;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -186,7 +186,7 @@ background-attachment: fixed;
     font-weight: 100;
     margin-bottom: 20px;
     margin-top: 20px;
-    padding: 0 10px;
+    padding: 0 120px;
 
 }
 .balon .box-balon .box button {
@@ -235,10 +235,10 @@ background-attachment: fixed;
 .container-warna{
     background-color: #0f1030;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
    display: grid;
-   padding:10%;
-   grid-template-rows: 20% auto;
+   padding:5% 10%;
+   grid-template-rows: 15% auto;
 }
 .container-warna .warna{
     width: 100%;
@@ -445,6 +445,13 @@ background-attachment: fixed;
 }
 
 @media screen and (max-width: 1200px){
+    .balon .box-balon .box img {
+        width:95%;
+           }
+    .balon .box-balon .box p {
+        padding: 0 10px;
+    
+    }
     .hero .box-hero .box:nth-child(1) button{
         width: 150px;
     }
