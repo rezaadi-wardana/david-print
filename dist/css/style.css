@@ -120,7 +120,7 @@ background-attachment: fixed;
     width: 80%;
     height: 80%;
     border-radius: 10px;
-    border: solid 2px white;
+    border: solid 3px white;
     margin : 0 5.5rem;
 } 
 
@@ -190,13 +190,20 @@ background-attachment: fixed;
 
 }
 .balon .box-balon .box button {
-    width: 120px;
-    height: 40px;
+    /* width: 120px;
+    height: 40px; */
+    padding: 10px 30px;
     border: none;
     background-color: #0050b3;
     color: white;
     font-weight: bold;
+    font-size:medium;
     border-radius: 5px;
+}
+.balon .box-balon .box button#pesan1, .balon .box-balon .box button#pesan2{
+    padding: 10px;
+    border-radius: 5px;
+
 }
 .balon .box-balon .box button:hover {
     background-color: #033068;
@@ -220,6 +227,156 @@ background-attachment: fixed;
     margin-bottom: 10px;
     animation:  animasi 2s infinite;
 }
+.hide {
+    display: none;
+}
+
+/* Warna */
+.container-warna{
+    background-color: #0f1030;
+    width: 100%;
+    height: 100vh;
+   display: grid;
+   padding:10%;
+   grid-template-rows: 20% auto;
+}
+.container-warna .warna{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+}
+.container-warna .warna div {
+    background-color: #0050b3;
+    /* border: white solid 3px; */
+    /* border-radius: 5px; */
+    display: grid;
+    grid-template-rows: auto auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5em;
+    font-weight: bolder;
+    transition: 1s ease;
+}
+.container-warna .warna div:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+
+.container-warna .warna div i {
+    font-size: 5em;
+    text-align: center;
+}
+.container-warna h2 {
+    text-align: center;
+    font-size: 2em ;
+    color: white;
+}
+.container-warna .warna .hitam {
+    background-color: black;
+}
+.container-warna .warna .putih {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.5);
+}
+.container-warna .warna .merah {
+    background-color: red;
+}
+.container-warna .warna .pinkTua {
+    background-color: magenta;
+}
+.container-warna .warna .pinkMuda {
+    background-color: pink;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.container-warna .warna .biruTua {
+    background-color: blue;
+}
+.container-warna .warna .biruMuda {
+    color: rgba(0, 0, 0, 0.5);
+    background-color: aquamarine;
+}
+.container-warna .warna .gold {
+    background-color: gold;
+}
+.container-warna .warna .unguMuda {
+    background-color: plum;
+    color: rgba(0, 0, 0, 0.5);
+}
+.container-warna .warna .silver {
+    background-color: silver;
+    color: rgba(0, 0, 0, 0.5);
+}
+.container-warna .warna .hijauMuda {
+    background-color: greenyellow;
+    color: rgba(0, 0, 0, 0.5);
+}
+.container-warna .warna .hijauTua {
+    background-color: green;
+}
+.container-warna .warna .orange {
+    background-color: orange;
+}
+.container-warna .warna .kuning {
+    background-color: yellow;
+    color: rgba(0, 0, 0, 0.5);
+}
+.container-warna .warna .mixed {
+    color: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(pink,yellow,aquamarine);
+}
+.container-warna .warna .request {
+    background-color: transparent;
+}
+/* Warna */
+
+/* --Galeri */
+.galery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #0f1030; */
+    grid-gap: 5px;
+}
+
+.galery div {
+    /* border: 1px solid white; */
+    background-size: cover;
+    background-image: url(../img/contoh.jpg);
+    /* background-color: #2d7da0; */
+}
+.a , .b{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 5px;
+}
+.a2, .b1 {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto auto;
+}
+.galery .a,.galery .b,.galery .a2,.galery .b1{
+    background-image:none ;
+}
+
+.galery .c{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
+.galery .a1{
+    background-image: url(../img/a.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+/* --Galeri */
+
 @keyframes animasi{
     0% {
         transform: scale(1);
@@ -291,6 +448,16 @@ background-attachment: fixed;
     .hero .box-hero .box:nth-child(1) button{
         width: 150px;
     }
+    .container-warna{
+        height: 150vh;
+       padding:10%;
+       grid-template-rows: 10% auto;
+    }
+    .container-warna .warna{
+        justify-content: baseline;
+        grid-template-columns: auto auto auto auto ;
+        grid-template-rows: auto  auto  auto auto;
+    }
     
 }
 @media screen and (max-width: 900px) {
@@ -302,7 +469,6 @@ background-attachment: fixed;
         flex-direction: column;
         width: 100%;
         height: 200px;
-        row-gap: 20px;
         justify-content: center;
         align-items: center;
         top: 70px;
@@ -311,12 +477,16 @@ background-attachment: fixed;
         opacity: 0;
         transition: all 0.3s ease;
         background-color:#005;
+        display: none;
     }
 
     .navbar .box-navbar .menu.menu-active{
         top: 80px;
         opacity: 1;
         border-top: 1px solid white;
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
     }
     .hero .box-hero .box:nth-child(1) p {
         font-size: 14px;
@@ -328,8 +498,22 @@ background-attachment: fixed;
         grid-template-columns: 1fr  ;
         row-gap: 30px;
     }
+    .container-warna{
+        height: 150vh;
+       padding:10%;
+       grid-template-rows: 10% auto;
+    }
+    .container-warna .warna{
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 10px;
+    }
+    .container-warna .warna div {
+        grid-template-rows: auto auto;
     
 }
+}
+
 @media screen and (max-width: 768px) {
     .hero .box-hero {
         grid-template-columns: 1fr;
@@ -356,6 +540,25 @@ background-attachment: fixed;
     .hero .box-hero .box:nth-child(1) h1{
         font-size: 20px;
         margin-top: 50px;
+    }
+    .container-warna{
+        height: 150vh;
+       padding:10%;
+       grid-template-rows: 10% auto;
+    }
+    .container-warna .warna{
+        justify-content: baseline;
+        grid-template-columns: auto ;
+        grid-template-rows: auto  auto  auto  auto  auto  auto  auto  auto  auto  auto  auto  auto  auto  auto auto  auto ;
+    }
+    .container-warna .warna div {
+        grid-template-columns: 40%  auto ;
+        align-items:center;
+        text-align: left;
+
+    }
+    .container-warna .warna div i {
+        font-size: 1.5em;
     }
 }
 @media screen and (max-width: 475px) {
