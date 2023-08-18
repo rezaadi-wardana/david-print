@@ -698,7 +698,14 @@ background-attachment: fixed;
         font-size: 1.5em;
     }
     .box-balon .box .btn {
-font-size: medium;    
-        display: grid;
-        grid-template-rows: auto auto;
-}}
+        height: 40px;
+    }
+    #btnDetail1, #btnDetail2, #pesan2After, #pesan1After {
+        font-size: medium;    
+        padding: 10px 8px;
+        width: auto;
+        /* height: 20px; */
+    }
+   
+}
+
