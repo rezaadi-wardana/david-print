@@ -544,9 +544,9 @@ background-attachment: fixed;
         border-top: 1px solid white;
         display:grid;
         grid-template-columns: auto;
-        grid-template-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
         text-align: center;
-        
+        grid-gap: 1em;
     }
     .hero .box-hero .box:nth-child(1) p {
         font-size: 14px;
