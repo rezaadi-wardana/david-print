@@ -101,8 +101,8 @@ background-attachment: fixed;
     font-weight: 200;
 }
 .hero .box-hero .box:nth-child(1) button {
-    width: 180px;
-    height: 50px;
+    width: 10em;
+    height: 4em;
     justify-content: center;
     background-color: #0050b3;
     font-weight: bold;
@@ -110,7 +110,7 @@ background-attachment: fixed;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-size: large;
+    font-size: medium;
 }
 .hero .box-hero .box:nth-child(1) button:hover {
     background-color: rgb(1, 1, 59);
@@ -683,13 +683,14 @@ background-attachment: fixed;
     .hero .box-hero .box:nth-child(2) img {
         width: 60vw;
         margin: 0;
-        margin-bottom: 1em;
+        margin-top: 1em;
+        margin-bottom: -0.1em;
         align-self: flex-end;
         justify-self: center;
     }
-    /* .hero .box-hero .box {
+    .hero .box-hero .box {
         width: 80vw;
-    } */
+    }
     .balon .box-balon{
         grid-template-columns: repeat(auto-fit,minmax(180px,  1fr));
     }
@@ -701,6 +702,11 @@ background-attachment: fixed;
     .hero .box-hero .box:nth-child(1) p {
         margin: 10px auto;
     }
-    
-    
-}
+    .container-warna h2 {
+        font-size: 1.5em;
+    }
+    .box-balon .box .btn {
+font-size: medium;    
+        display: grid;
+        grid-template-rows: auto auto;
+}}
