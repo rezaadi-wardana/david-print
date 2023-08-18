@@ -371,43 +371,50 @@ background-attachment: fixed;
     background-image: url(../../assets/img/g3.jpg);
     background-size: cover;
     background-position: center;
-    border-bottom: 5px solid transparent;
+    transition: 1s ease-out;
+    border:5px solid #080b0c;
 }
 .galery .a2a{
     background-image: url(../../assets/img/g4.jpg);
     background-size: cover;
     background-position: center;
-    border-bottom: 5px solid transparent;
+    transition: 1s ease-out;
+    border:5px solid #080b0c;
 }
 .galery .a2b{
     background-image: url(../../assets/img/g8.jpg);
     background-size: cover;
     background-position: center;
-    border-bottom: 5px solid transparent;
+    transition: 1s ease-out;
+    border:5px solid #080b0c;
 }
 .galery .b2{
     background-image: url(../../assets/img/g2.jpg);
     background-size: cover;
     background-position: center;
-    border-bottom: 5px solid transparent;
+    transition: 1s ease-out;
+    border:5px solid #080b0c;
 }
 .galery .b1a{
     background-image: url(../../assets/img/g11.jpg);
     background-size: cover;
     background-position: center;
-    border-bottom: 5px solid transparent;
+    transition: 1s ease-out;
+    border:5px solid #080b0c;
 }
 .galery .b2a{
     background-image: url(../../assets/img/g9.jpg);
     background-size: cover;
-    background-position: center;
-    border-bottom: 5px solid transparent;
+    background-position:center;
+    transition: 1s ease-out;
+    border:5px solid #080b0c;
 }
 .galery .c{
     background-image: url(../../assets/img/g12.jpg);
     background-size: cover;
     background-position: center;
-    border-bottom: 5px solid transparent;
+    transition: 1s ease-out;
+    border:5px solid #080b0c;
 }
 .galery .a1:hover
 , .galery .a2a:hover
@@ -416,23 +423,8 @@ background-attachment: fixed;
 , .galery .b1a:hover
 ,.galery .b2a:hover
 , .galery .c:hover {
-    border-bottom: 5px solid white;
-    transition: 1s ease-out;
+    border: 5px solid white;
 }
-
-/* 
-.galery .c{
-    background-image: url(../);
-    background-size: cover;
-    background-position: center;
-}
-.galery .a1{
-    background-image: url(../img/a.jpg);
-    background-size: cover;
-    background-position: center;
- */
-
-/* } */
 /* --Galeri */
 
 @keyframes animasi{

@@ -71,7 +71,8 @@ btnDetail2.addEventListener("click", () => {
     
 });
 
-document.querySelector(".c").addEventListener("focus", () => {
-    // document.querySelector(".c").innerHTML = "Produk";
-    document.querySelector(".c").textContent.add = "produk";
-})
+// c =document.querySelector(".c");
+// c.addEventListener("focus", () => {
+//     // document.querySelector(".c").innerHTML = "Produk";
+//    c.style.borderBottom = "5px solid black";
+// })
