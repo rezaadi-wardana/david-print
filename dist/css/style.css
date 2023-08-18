@@ -504,6 +504,7 @@ background-attachment: fixed;
     }
     .hero .box-hero .box:nth-child(1) button{
         width: 150px;
+        height: 3em;
     }
     .container-warna{
         height: 150vh;
@@ -545,6 +546,7 @@ background-attachment: fixed;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto;
         text-align: center;
+        
     }
     .hero .box-hero .box:nth-child(1) p {
         font-size: 14px;
@@ -621,7 +623,7 @@ background-attachment: fixed;
         margin-top: 50px;
     }
     .container-warna{
-       height: 150vh;
+       height: 160vh;
        padding:10%;
        grid-template-rows: 10% auto;
     }
@@ -688,8 +690,8 @@ background-attachment: fixed;
     }
    
     .hero .box-hero .box:nth-child(1) h1 {
-
-        margin: auto;
+        margin: 5px auto;
+        font-size: 1.5em;
         }
     .hero .box-hero .box:nth-child(1) p {
         margin: 10px auto;
@@ -698,13 +700,17 @@ background-attachment: fixed;
         font-size: 1.5em;
     }
     .box-balon .box .btn {
-        height: 40px;
+        height: 3em;
+        align-items: center;
     }
     #btnDetail1, #btnDetail2, #pesan2After, #pesan1After {
         font-size: medium;    
         padding: 10px 8px;
         width: auto;
-        /* height: 20px; */
+        height: auto;
+    }
+    .hero .box-hero .box:nth-child(1){
+        margin-top: -20px;
     }
    
 }
