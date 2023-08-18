@@ -71,3 +71,7 @@ btnDetail2.addEventListener("click", () => {
     
 });
 
+document.querySelector(".c").addEventListener("focus", () => {
+    // document.querySelector(".c").innerHTML = "Produk";
+    document.querySelector(".c").textContent.add = "produk";
+})
